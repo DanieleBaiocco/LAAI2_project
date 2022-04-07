@@ -1,0 +1,7 @@
+#lang gamble
+(require gamble/viz)
+
+;It does not terminate
+(define (p) (p))
+(define (test x y)
+(if (= x 0) 0 y))
